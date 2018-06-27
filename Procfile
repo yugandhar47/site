@@ -1,2 +1,2 @@
-web: java -Dswarm.http.port=$PORT $JAVA_OPTS -jar target/*.jar
+web: java -jar -Dserver.port=$PORT $JAVA_OPTS target/site-0.0.1-SNAPSHOT.jar
 
